@@ -1,0 +1,7 @@
+TABLEAU PROCEDURES
+
+• Removed Refferdby column - only 408 inputs of 27346 rows
+• Removed Bank Branch Clients - 
+    null = 27138
+    not null = 208
+• Level of Education column removed null > 70%, may contribute noise to data

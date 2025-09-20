@@ -1,0 +1,40 @@
+loan_performance.csv
+This file is about loans taken within a short window (July 2017).
+customerid: unique ID assigned to each customer.
+systemloanid: internal ID for each loan.
+loannumber: tells how many times the customer has borrowed (2nd loan, 3rd loan, etc.).
+approveddate: when the loan got approved.
+creationdate: when the customer first created the loan request.
+loanamount: the actual principal the customer collected.
+totaldue: how much they’re supposed to pay back (principal + interest/fees).
+termdays: the length of the loan in days (15, 30, 60, 90).
+referredby: another customer who referred them (many are missing).
+good_bad_flag: whether the loan was repaid well or defaulted (“Good” or “Bad”).
+
+
+customer_info.csv
+This is customer background info.
+customerid: same as above, links the tables.
+birthdate: date of birth (can be used to calculate age).
+bank_account_type: whether the client uses a savings or current account.
+longitude_gps / latitude_gps: customer’s location coordinates.
+bank_name_clients: the customer’s bank name.
+bank_branch_clients: the branch of the bank.
+employment_status_clients: self-employed, employed, unemployed, etc.
+level_of_education_clients: level of education (secondary, tertiary, etc.).
+
+
+loan_performance.csv
+This is loan history with more details.
+customerid: unique customer ID.
+systemloanid: ID for the loan.
+loannumber: number of times the customer has borrowed.
+approveddate: date loan was approved.
+creationdate: when the loan request was created.
+loanamount: amount borrowed.
+totaldue: total repayment expected.
+termdays: how long the loan was for.
+closeddate: when the loan was officially closed.
+referredby: if the loan came via referral.
+firstduedate: date the first repayment was supposed to happen.
+firstrepaiddate: when the first repayment actually happened.
