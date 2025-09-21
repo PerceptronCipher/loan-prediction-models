@@ -8,15 +8,7 @@ import joblib
 import numpy as np
 
 # Load the model
-import joblib
-
-model = joblib.load(r"localfilepath\name.pkl")
-
-# Make prediction to authenticate the loaded model 
-single_value = np.array([[200]])
-predicted_value = model.predict(single_value)
-print(f"Predicted value for input {single_value[0][0]}: {predicted_value[0]}")
-
+model = joblib.load("Notebooks/models/linear_regression2.pkl")
 
 # App Title
 st.title("💰 Loan Total Due Prediction App")
