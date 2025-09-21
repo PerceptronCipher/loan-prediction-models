@@ -1,9 +1,7 @@
 <<<<<<< HEAD
 __pycache__/
 .ipynb_checkpoints/
-*.pkl
-*.csv
-*.xlsx
+
 
 =======
 # Byte-compiled / optimized / DLL files

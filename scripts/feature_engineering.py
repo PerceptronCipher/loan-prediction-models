@@ -1,6 +1,7 @@
 """
 Feature Engineering Script
-Altough the dataset is cleaned and engineered already in postgresql, this script performs additional feature engineering steps to prepare the data for machine learning models.
+Altough the dataset is cleaned and engineered already in postgresql and can be found in the sql_queries folder, 
+this script performs additional feature engineering steps to prepare the data for machine learning models.
 This script:
 1. Loads the cleaned dataset (from data_cleaning.py output).
 2. Handles missing values (example: fills employment_status with the most common value).
