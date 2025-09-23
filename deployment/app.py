@@ -8,8 +8,7 @@ import joblib
 import numpy as np
 
 # Load the model
-model = joblib.load("Notebooks/models/linear_regression2.pkl")
-
+model = joblib.load("Notebooks/models/linear_regression_model2.pkl")
 # App Title
 st.title("💰 Loan Total Due Prediction App")
 st.write("Enter loan details below to predict total amount due:")
