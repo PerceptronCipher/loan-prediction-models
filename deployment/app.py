@@ -15,11 +15,9 @@ st.write("Enter loan details below to predict total amount due:")
 
 # User Inputs
 loan_amount = st.number_input("Loan Amount ($)", min_value=0, max_value=100000, value=5000, step=100)
-charges_pct = st.number_input("Charges Percentage (%)", min_value=0.0, max_value=50.0, value=10.0, step=0.5)
-loan_duration = st.number_input("Loan Duration (days)", min_value=1, max_value=365, value=30, step=1)
 
 # Convert inputs to numpy array
-features = np.array([[loan_amount, charges_pct, loan_duration]])
+features = np.array([[loan_amount]])
 
 # Prediction
 if st.button("Predict Total Due"):
