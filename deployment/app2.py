@@ -10,7 +10,7 @@ import numpy as np
 # Load the model
 import joblib
 
-model = joblib.load(r"multiple_linear_regression_model.pkl")
+model = joblib.load(r"Notebooks\models\multiple_linear_regression_model.pkl")
 
 
 # Make prediction to authenticate the loaded model 
